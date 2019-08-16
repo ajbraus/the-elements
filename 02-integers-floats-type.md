@@ -45,11 +45,9 @@ random_num_below_one_hundred()
 # => 43
 ```
 
-
 ## Example 3 - Check Type
 
 Make a function called `check_type` that takes in one argument and prints out the argument's type.
-
 
 **Pseudocode:**
 
@@ -60,13 +58,13 @@ Make a function called `check_type` that takes in one argument and prints out th
 **Implementation (Python)**
 
 ```py
-def add(first, second):
-  sum = first + second
-  return sum
+def check_type(obj):
+  return type(object)
 
-add(4, 7)
-# => 11
+check_type(4)
+# => int
 ```
 
+## Off Road Challenges
 
-## Challenges
+1. 

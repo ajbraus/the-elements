@@ -12,7 +12,7 @@ Given nothing, make a function called “warm_greetings” that prints a greetin
 **Implementation (Python)**
 
 ```py
-def greetings():
+def warm_greetings():
   print(“Warm Greetings!”)
 
 greetings()
@@ -76,7 +76,7 @@ named_salutations("Mike", "Great to see you!")
 # => "Salutations! Mike, Great to see you!"
 ```
 
-## Challenges
+## Off Road Challenges
 
 1. Write a function that takes in a person's name as its only argument and print out the song happy birthday with their name where it belongs.
 1. Write a function called `multiply()` that returns the multiplication of two numbers.
@@ -85,4 +85,3 @@ named_salutations("Mike", "Great to see you!")
 **Stretch**
 
 1. You realize that some of your usernames are getting fewer than four digits. Make a new make_username function that always adds four digits to the username.
-1. 
