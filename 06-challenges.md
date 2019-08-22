@@ -27,20 +27,6 @@ Histogram solution
 1. If so, increment value +=1
 1. Loop over the dictionary and check which is the minimum <2
 
-Very Fast Binary search solution
-1. Sort array if unsorted
-1. Array will be odd
-1. Split it in half
-1. Check if right or left of half element is equal to middle element
-1. If neither are equal, middle element is the solution
-1. If equal on the left, take the right and do it again
-
-[1,1,2,2,3,3,4,4,5,6,6]
-[1,1,2,2,3,x,4,4,5,6,6]
-[4,4,5,6,6]
-[4,4,x,6,6] done
-
-
 Challenge 2 - Given an array of all unique numbers except for one duplicate, write a function that finds the duplicate. (example: [2, 1, 3, 4, 5, 3] => 3)
 
 
